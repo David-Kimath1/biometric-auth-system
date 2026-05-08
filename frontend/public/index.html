@@ -37,7 +37,42 @@
                 <i class="fas fa-face-smile btn-icon"></i>
                 <span>Sign in with Face ID</span>
             </button>
+            <div class="divider">
+                <span>or</span>
+            </div>
+            <button id="passwordLogin" class="secondary-btn">
+                <i class="fas fa-keyboard"></i>
+                <span>Sign in with Password</span>
+            </button>
+            <div class="register-link">
+                <i class="fas fa-user-plus"></i>
+                <a href="/frontend/public/register.html">
+                    Create new account
+                </a>
+            </div>
+            <div class="message-container" id="message"></div>
+        </div>
+        <div id="faceScannerView" style="display: none;">
+            <div class="scanner-container">
+                <div class="scanner-ring">
+                    <i class="fas fa-camera scanner-icon"></i>
+                    <div class="scanner-line"></div>
+                </div>
+                <p class="scanner-text">
+                    <i class="fas fa-eye"></i>
+                    Looking for face...
+                </p>
+                <p class="scanner-hint">
+                    Please position your face in the frame
+                </p>
+                <button id="cancelFace" class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                    Cancel
+                </button>
+            </div>
         </div>
     </div>
+
+    <script src="/frontend//js/app.js" type="module"></script>
 </body>
 </html>
