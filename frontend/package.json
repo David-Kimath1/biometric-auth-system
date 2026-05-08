@@ -1,0 +1,8 @@
+{
+    "name": "biometric-auth-frontend",
+    "version": "3.0.0",
+    "dependencies": {
+        "@fontawesome/fontawesome-free":"^6.4.0",
+      "  @simplewebauthn/browser":"^8.3.2"
+    }
+}
